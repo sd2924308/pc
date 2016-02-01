@@ -92,7 +92,7 @@ p.standalone img {display: inline;}
     url('./font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
     url('./font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
-
+1
 .icon {
     font-family:"iconfont" !important;
     font-style:normal;
