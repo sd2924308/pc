@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* generics */
+
+body {font: 0.95em/1.333 "Microsoft Yahei",Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif; margin: 0; padding: 0;
+    color: #202020; background: #FFF;
+    margin: 0 auto;}
+a{text-decoration: none;}
+a:link {color: #555;}
+a:visited {color: #555;}
+a:hover{color:#000}
+a img {border: none;}
+h1, h2, h3, h4, h5, h6 {font-weight: bold;}
+h1 {font-size: 2em; margin: 2em 0 0.5em; padding: 0.25em 0;}
+h2 {font-size: 1.5em; margin: 2em 0 0.33em; padding: 0.25em 0;}
+h3 {font-size: 1.33em; margin: 2em 0 0.25em; padding: 0.125em 0;}
+h4 {font-size: 1.1em; margin: 0.5em 0 0;}
+h5 {font-size: 1em; margin: 0.5em 0 0;}
+h6 {font-size: 0.85em; margin: 0.5em 0 0;}
+p {margin: 0.33em 0 1em 0;}
+ul, ol {margin: 1em 0; padding-left: 2.5em;}
+dt {margin: 0.5em 0 0; font-weight: 700;}
+dd {margin: 0.25em 0 0.5em 2.5em;}
+pre, code, tt, kbd {font: 100% "Consolas", "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", "Courier New", monospace; margin: 1em 0;}
+kbd {outline: 1px solid rgba(0,0,0,0.15); background: rgba(0,0,0,0.05);  margin: 0 1px; padding: 0 0.2em; font-size: 0.95em;}
+code, tt {border-bottom: 1px solid #E3E3E3; padding: 0 1px;}
+pre code {border-bottom: 0;}
+small {font-size: 85%;}
+big {font-size: 115%;}
+sup {font-size: smaller; vertical-align: 0.5em; line-height: 1px;}
+img {max-width: 100%;}
+img.pic {float: right; position: relative; margin: 0.25em 0 0.66em 1.5em;}
+img.border {border: 3px double;}
+img.standalone {display: block; margin: 0.5em auto; width: auto; max-width: 100%;}
+p.standalone {text-align: center;}
+p.standalone img {display: inline;}
+.warning {background: #FF8; color: red; border: 2px solid; padding: 1em;}
+.highlight {background: #B4D5FF; font-weight: bold;}
+
+
+@font-face {font-family: "iconfont";
+    src: url('./font/iconfont.eot'); /* IE9*/
+    src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./font/iconfont.woff') format('woff'), /* chrome, firefox */
+    url('./font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('./font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.icon {
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#555;
+}
+
+.icon-spu:before { content: "\e634"; }
+
+.clearfix{*zoom:1;}
+.clearfix:after{content:'';display: table;clear:both;}
+
+/* header */
+
+/*main*/
+.main{margin: 0 auto; width: 1160px;padding: 0 20px; background: #fff;}
+.top_ad{height: 100px;background: orange}
+.top_ad:after{content: "x";}
+.top{}
+.top1{height:60px; padding:20px 0;background: #fff}
+.top1_logo{
+    float: left;}
+.top1_banner{
+    display: block;
+    float: left;
+    width:630px;
+    height:60px;
+    margin-left:10px;
+    background: url(../images/topbaner.gif) no-repeat -100px;
+}
+.top1_dm{
+    float: left;
+    height: 60px;
+    width: 290px;
+    margin-left: 10px;}
+.top1_dm_bt{
+    padding-left:5px;}
+.top1_dm_bt a{
+    margin-left: 5px;}
+.top1_dm_nr{
+    line-height:22px;}
+.top1_dm_nr a{
+    float: left;
+    margin-left: 5px;
+    font-size:13px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
